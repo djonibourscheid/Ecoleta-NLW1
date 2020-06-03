@@ -153,6 +153,13 @@ form .field-group .field + .field {
     border: 2px solid #34cb79;
 }
 
+/* Removendo o pointer da img e do span */
+/* Para o JS o li que foi clidado */
+.items-grid li img,
+.items-grid li span {
+    pointer-events: none;
+}
+
 
 /* BUTTON (cadastrar um ponto de coleta) */
 form button {

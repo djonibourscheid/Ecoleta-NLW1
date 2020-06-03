@@ -20,6 +20,23 @@
     #page-home main {
         align-items: center;
     }
+
+    #page-search-results main,
+    #page-search-results main .card{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img{
+        height: 175px;
+    }
 }
 
 @media (max-height: 760px) {

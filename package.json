@@ -1,0 +1,23 @@
+{
+  "name": "Ecoleta-NLW-1",
+  "version": "1.0.0",
+  "description": "Projeto Ecoleta feito durante a Next Level Weak organizado pela Rocketseat",
+  "main": "/src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djonibourscheid/Ecoleta-NLW-1.git"
+  },
+  "keywords": [],
+  "author": "Djoni Bourscheid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djonibourscheid/Ecoleta-NLW-1/issues"
+  },
+  "homepage": "https://github.com/djonibourscheid/Ecoleta-NLW-1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

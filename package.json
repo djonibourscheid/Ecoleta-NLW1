@@ -2,9 +2,9 @@
   "name": "Ecoleta-NLW-1",
   "version": "1.0.0",
   "description": "Projeto Ecoleta feito durante a Next Level Weak organizado pela Rocketseat",
-  "main": "/src/server.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/djonibourscheid/Ecoleta-NLW-1#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

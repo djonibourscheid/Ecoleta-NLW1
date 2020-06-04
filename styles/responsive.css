@@ -1,7 +1,8 @@
 /* TELAS PEQUENAS */
-@media (max-width: 900px) {
+@media (max-width: 950px) {
+    /* PAGINA INICIAL */
     #page-home {
-        background-position-x: 70vw;
+        background-position-x: 71vw;
     }
     
     #page-home .content {
@@ -21,13 +22,15 @@
         align-items: center;
     }
 
-    #page-search-results main,
+    /* PAGINA RESULTADOS */
+    #page-search-results main h4,
     #page-search-results main .card{
         display: flex;
         flex-direction: column;
 
+        text-align: center;
         align-items: center;
-        justify-content: center;
+        justify-content: center; 
     }
 
     #page-search-results .cards {
@@ -35,7 +38,7 @@
     }
 
     #page-search-results .cards img{
-        height: 175px;
+        height: 90%;
     }
 }
 

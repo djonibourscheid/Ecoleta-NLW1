@@ -31,7 +31,7 @@
     justify-content: space-between;
     align-items: center;
 
-    margin-bottom: 48px;
+    margin: 0px 8px 48px;
 }
 
 #modal .header h1 {
@@ -50,14 +50,16 @@
     display: flex;
 
     font-size: 0.0px;
+
+    margin-right: 18px;
 }
 
 #modal form label {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
 
     display: block;
-    margin-bottom: 8px;
+    margin: 0 8px 8px;
 }
 
 #modal form .field {

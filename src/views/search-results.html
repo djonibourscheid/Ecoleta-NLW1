@@ -1,29 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "layout.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% set pageID = "page-search-results" %}
+
+{% block title %}
     <title>Ecoleta - Pontos de Coletas</title>
+{% endblock title %}
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="/styles/main.css">
+{% block styles %}
     <link rel="stylesheet" href="/styles/search-results.css">
+{% endblock styles %}
 
-    <link rel="stylesheet" href="/styles/responsive.css">
-</head>
-
-<body>
-    <div id="page-search-results">
-
-        <header>
-            <img src="/assets/logo.svg" alt="Logomarca do Ecoleta">
-
-            <a href="/">
-                <span></span> Voltar para a página incial
-            </a>
-        </header>
+{% block content %}
+        {% include "partials/page-header.html" %}
 
 
         <main>
@@ -77,8 +65,4 @@
                 </div>
             </div>
         </main>
-    </div>
-
-</body>
-
-</html>
+{% endblock content %}

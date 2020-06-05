@@ -22,6 +22,22 @@
         align-items: center;
     }
 
+
+    /* PAGINA CRIAR PONTO */
+    /* Campos de Preenchimento */
+    #page-create-point form {
+        padding: 64px 8px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    
     /* PAGINA RESULTADOS */
     #page-search-results main h4,
     #page-search-results main .card{

@@ -79,7 +79,7 @@ form legend span {
 
     font-size: 14px;
 }
-/* campos dos dados */
+/* DADOS DA ENTIDADE */
 form .field {
     display: flex;
     flex-direction: column;

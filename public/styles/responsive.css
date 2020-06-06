@@ -24,11 +24,16 @@
 
 
     /* PAGINA CRIAR PONTO */
-    /* Campos de Preenchimento */
-    #page-create-point form {
-        padding: 64px 8px;
+    #page-create-point form h1 {
+        text-align: center;
     }
+    
+    
 
+    /* Dados da Entidade */
+    
+
+    /* Campos de Preenchimento */
     #page-create-point .field-group {
         flex-direction: column;
     }
@@ -36,6 +41,14 @@
     #page-create-point .field-group .field + .field {
         margin-left: 0;
     }
+
+
+    /* Itens de Coleta */
+    #page-create-point .items-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 
     
     /* PAGINA RESULTADOS */
@@ -57,6 +70,29 @@
         height: 90%;
     }
 }
+
+@media (max-width: 500px) {
+    #page-create-point form legend {
+        display: block;
+        text-align: center;
+
+    }
+}
+@media (max-width: 600px) {
+    #page-create-point form {
+        padding: 64px 16px;
+    }
+}
+
+@media (max-width: 345px) {
+    /* PAGINA CRIAR PONTO */
+    /* Itens de Coleta */
+    #page-create-point .items-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
 
 @media (max-height: 760px) {
     #page-home {

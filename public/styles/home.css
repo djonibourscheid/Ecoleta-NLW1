@@ -27,17 +27,14 @@
 
 #page-home header a {
     display: flex;
+    align-items: center;
 
     color: var(--title-color);
     font-weight: 700;
-
-    
 }
 
 #page-home header a span {
     margin-right: 16px;
-
-    display: flex;
 
     background-image: url('../assets/log-in.svg');
 
@@ -77,7 +74,7 @@
     display: flex;
     align-items: center;
 
-    margin-top: 40px;
+    margin: 48px 0;
 
     background-color: var(--primary-color);
 

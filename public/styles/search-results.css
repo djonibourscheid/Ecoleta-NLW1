@@ -1,3 +1,4 @@
+/* fundo branco */
 body::after {
     content: "";
     position: fixed;

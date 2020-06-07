@@ -93,3 +93,20 @@
 #modal form button:hover{
     background-color: #2fb85e;
 }
+
+
+
+/* PONTO CRIADO/ERROR */
+#modal.point-created .content,
+#modal.point-error .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point-created h1,
+#modal.point-error h1 {
+    color: white;
+
+    margin-top: 32px;
+}

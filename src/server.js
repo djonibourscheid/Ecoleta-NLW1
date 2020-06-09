@@ -62,9 +62,12 @@ server.post("/savepoint", (req, res) => {
 
     function afterInsertData(err) {
         if (err) {
-            return console.log(err)
+            console.log(err)
+
+            return res.render("create-point.html", { error: true })
         }
 
+        // Mensagem do cadastro
         console.log(`
 |- Nova Entidade Cadastrada - |
 | Nome: ${req.body.name}

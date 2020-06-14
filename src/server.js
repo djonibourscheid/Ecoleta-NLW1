@@ -61,9 +61,12 @@ server.post("/savepoint", (req, res) => {
     ]
 
     function afterInsertData(err) {
-        if (err) {
+        // Se dar algum erro ou
+        // Se o usuário não selecionou nenhum item o modal de erro será ativado
+        if (err || req.body.items == "") {
             console.log(err)
 
+            // Modal de erro
             return res.render("create-point.html", { error: true })
         }
 

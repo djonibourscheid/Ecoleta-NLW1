@@ -1,3 +1,5 @@
+
+// POPULANDO OS CAMPOS DE ESTADO E CIDADE
 function populateUFs() {
     const ufSelect = document.querySelector("select[name=uf]")
     
@@ -48,6 +50,8 @@ populateUFs()
 document
     .querySelector("select[name=uf")
     .addEventListener("change", getCities)
+
+
 
 
 // ITENS DE COLETA

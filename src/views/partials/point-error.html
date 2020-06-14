@@ -3,10 +3,46 @@
         <div class="content">
             <img src="/assets/error.svg" alt="Erro no Cadastro" style="width:64px;">
             <h1>Erro no Cadastro</h1>
+
+            <a href="#">
+                <span></span>
+                Ajuda sobre os tipos de erros
+            </a>
+        </div>
+    </div>
+
+<!-- Ajuda sobre os erros -->
+    <div id="modal" class="help hide">
+        <div class="content">
+            <h1>Ajuda</h1>
+            <h2>Possíveis tipos de erros:</h2>
+            
+            <div class="errors">
+                <ul>1. Erro no banco de dados</ul>
+                <ul>2. O campo de itens de coleta não foi preenchido</ul>
+            </div>
+
+            <button>Fechar</button>
         </div>
     </div>
 
     <script>
+        // MODAL (ajuda com tipos de erros)
+        const menuHelp = document.querySelector("#modal.point-error a")
+        const modal = document.querySelector("#modal.help")
+        const close = document.querySelector("#modal.help button")
+
+        // Adicionando a vizibilidade do modal
+        menuHelp.addEventListener("click", () => {
+            modal.classList.remove("hide")
+        })
+
+        // Removendo a vizibilidade do modal
+        close.addEventListener("click", () => {
+            modal.classList.add("hide")
+        })
+
+        // Depios de 5 segundos 
         setTimeout(() => {
             modal.classList.add("hide")
             window.location = "/criar-ponto"

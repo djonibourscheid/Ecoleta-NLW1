@@ -80,6 +80,11 @@
         display: block;
         text-align: center;
     }
+
+    /* MODAL HELP */
+    #modal.help .content {
+        width: 80%;
+    }
 }
 
 

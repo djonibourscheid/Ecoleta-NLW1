@@ -1,15 +1,34 @@
 # [Ecoleta](https://ecoleta-djoni.herokuapp.com)
 <img src="public/assets/logo.svg" align="right">
 
-Projeto Ecoleta feito durante a Next Level Weak organizado pela Rocketseat. Tem como funcionalidade ser um marketplace para ONG's coletoras de resíduos, facilitando a reciclagem entre a população.
+Projeto Ecoleta feito durante a 1° temporada da Next Level Weak, dos dias 1 a 5 de junho, organizado pela [@Rocketseat](https://github.com/Rocketseat). Tem como funcionalidade ser um marketplace para ONG's coletoras de resíduos, facilitando a reciclagem entre a população.
 
 ***
 
 ## Tecnologias usadas:
-* [express](https://expressjs.com/pt-br)
-* [nunjucks](https://mozilla.github.io/nunjucks)
-* [sqlite3](https://www.sqlite.org)
-* *[nodemon](https://nodemon.io) - para desenvolvimento*
+#### FrontEnd:
+  * [Nunjucks](https://mozilla.github.io/nunjucks)
+  * [JavaScript](https://javascript.com/)
+  * [HTML5](http://w3.org/TR/html5/)
+  * [CSS3](https://w3schools.com/Css/)
+
+#### BackEnd:
+  * [Express](https://expressjs.com/pt-br)
+  * [SQLite3](https://sqlite.org)
+  * *[Nodemon](https://nodemon.io) - para desenvolvimento*
+
+#### API:
+  * [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
+
+
+## Funcionalidades trabalhadas
+  * [Cadastro](#tela-criar-ponto) de entidades
+  * [Uso de API](#api) do IBGE para classificação dos estados e cidades
+  * [Pesquisa](#modal-de-pesquisa) a partir da cidade
+  * [Listagem](#tela-resultados-da-pesquisa) de resultados puxados do banco de dados
+  * [Responsividade](#imagens) para todas as telas
+
+***
 
 ## Para iniciar:
 > * `npm install`
@@ -21,6 +40,8 @@ Após o comando acima executar:
 >
 > * `npm dev` **→** para abrir **com** o nodemon
 
+***
+
 ## Imagens:
 ### Tela [Inicial](https://ecoleta-djoni.herokuapp.com):
 <div style=display:"grid">
@@ -31,14 +52,17 @@ Após o comando acima executar:
 
 ### Tela [Criar Ponto](https://ecoleta-djoni.herokuapp.com/crair-ponto):
 <div style=display:"grid">
-    <img src=".github/images/pc-createPoint.png" alt="Página Criar Ponto visto por um PC" width="50%">
-    <img src=".github/images/tablet-createPoint.png" alt="Página Criar Ponto visto por um Tablet" width="23.35%">
-    <img src=".github/images/cel-createPoint.png" alt="Página Criar Ponto visto por um Celular" width="11.99%">
+  <img src=".github/images/pc-createPoint.png" alt="Página Criar Ponto visto por um PC" width="50%">
+  <img src=".github/images/tablet-createPoint.png" alt="Página Criar Ponto visto por um Tablet" width="23.35%">
+  <img src=".github/images/cel-createPoint.png" alt="Página Criar Ponto visto por um Celular" width="11.99%">
 </div>
 
 ### Tela [Resultados da Pesquisa](https://ecoleta-djoni.herokuapp.com):
 <div style=display:"grid">
-    <img src=".github/images/pc-searchPoint.png" alt="Página Resultados da Pesquisa visto por um PC" width="50%">
-    <img src=".github/images/tablet-searchPoint.png" alt="Página Resultados da Pesquisa visto por um Tablet" width="23.35%">
-    <img src=".github/images/cel-searchPoint.png" alt="Página Resultados da Pesquisa visto por um Celular" width="11.99%">
+  <img src=".github/images/pc-searchPoint.png" alt="Página Resultados da Pesquisa visto por um PC" width="50%">
+  <img src=".github/images/tablet-searchPoint.png" alt="Página Resultados da Pesquisa visto por um Tablet" width="23.35%">
+  <img src=".github/images/cel-searchPoint.png" alt="Página Resultados da Pesquisa visto por um Celular" width="11.99%">
 </div>
+
+### Modal de Pesquisa:
+  <img src=".github/images/modal-searchPoint.png">

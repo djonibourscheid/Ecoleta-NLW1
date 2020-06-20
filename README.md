@@ -23,16 +23,22 @@ Após o comando acima executar:
 
 ## Imagens:
 ### Tela [Inicial](https://ecoleta-djoni.herokuapp.com):
-<img src=".github/images/pc-pageHome.png" width="50%" alt="Página Inicial visto por um PC">
-<img src=".github/images/tablet-pageHome.png" width="22.6%" alt="Página Inicial visto por um Tablet">
-<img src=".github/images/cel-pageHome.png" width="12%" alt="Página Inicial visto por um Celular">
+<div style=display:"grid">
+  <img src=".github/images/pc-pageHome.png" alt="Página Inicial visto por um PC" width="50%">
+  <img src=".github/images/tablet-pageHome.png" alt="Página Inicial visto por um Tablet" width="23.35%">
+  <img src=".github/images/cel-pageHome.png" alt="Página Inicial visto por um Celular" width="11.99%">
+</div>
 
 ### Tela [Criar Ponto](https://ecoleta-djoni.herokuapp.com/crair-ponto):
-<img src=".github/images/pc-createPoint.png" width="50%" alt="Página Criar Ponto visto por um PC">
-<img src=".github/images/tablet-createPoint.png" width="22.6%" alt="Página Criar Ponto visto por um Tablet">
-<img src=".github/images/cel-createPoint.png" width="12%" alt="Página Criar Ponto visto por um Celular">
+<div style=display:"grid">
+    <img src=".github/images/pc-createPoint.png" alt="Página Criar Ponto visto por um PC" width="50%">
+    <img src=".github/images/tablet-createPoint.png" alt="Página Criar Ponto visto por um Tablet" width="23.35%">
+    <img src=".github/images/cel-createPoint.png" alt="Página Criar Ponto visto por um Celular" width="11.99%">
+</div>
 
 ### Tela [Resultados da Pesquisa](https://ecoleta-djoni.herokuapp.com):
-<img src=".github/images/pc-searchPoint.png" width="50%" alt="Página Resultados da Pesquisa visto por um PC">
-<img src=".github/images/tablet-searchPoint.png" width="22.6%" alt="Página Resultados da Pesquisa visto por um Tablet">
-<img src=".github/images/cel-searchPoint.png" width="12%" alt="Página Resultados da Pesquisa visto por um Celular">
+<div style=display:"grid">
+    <img src=".github/images/pc-searchPoint.png" alt="Página Resultados da Pesquisa visto por um PC" width="50%">
+    <img src=".github/images/tablet-searchPoint.png" alt="Página Resultados da Pesquisa visto por um Tablet" width="23.35%">
+    <img src=".github/images/cel-searchPoint.png" alt="Página Resultados da Pesquisa visto por um Celular" width="11.99%">
+</div>

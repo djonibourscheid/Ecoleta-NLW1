@@ -7,15 +7,19 @@ Projeto Ecoleta feito durante a 1° temporada da Next Level Weak, dos dias 1 a 5
 
 ## Tecnologias usadas:
 #### FrontEnd:
-  * [Nunjucks](https://mozilla.github.io/nunjucks)
-  * [JavaScript](https://javascript.com/)
-  * [HTML5](http://w3.org/TR/html5/)
-  * [CSS3](https://w3schools.com/Css/)
+  * [JavaScript](https://javascript.com)
+  * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+  * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
 #### BackEnd:
   * [Express](https://expressjs.com/pt-br)
+  * [Nodemon](https://nodemon.io)
+
+#### Template Engine:
+  * [Nunjucks](https://mozilla.github.io/nunjucks)
+
+#### Banco de Dados:
   * [SQLite3](https://sqlite.org)
-  * *[Nodemon](https://nodemon.io) - para desenvolvimento*
 
 #### API:
   * [IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
@@ -66,3 +70,42 @@ Após o comando acima executar:
 
 ### Modal de Pesquisa:
   <img src=".github/images/modal-searchPoint.png">
+
+***
+
+<table>
+    <tr align="center">
+        <td>
+            Código
+        </td>
+        <td>
+            Instrutor
+        </td>
+    </tr>
+    <tr align="center">
+        <td>
+            <a href="https://github.com/djonibourscheid">
+                <img width="100" height="100" src="https://avatars0.githubusercontent.com/u/62856037?v=4">
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/maykbrito">
+                <img width="100" height="100" src="https://avatars3.githubusercontent.com/u/6643122?v=4">
+            </a>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>
+            <a href="https://github.com/djonibourscheid">@djonibourscheid</a>
+        </td>
+        <td>
+            <a href="https://github.com/maykbrito">@maykbrito</a>
+        </td>
+    </tr>
+</table>
+
+[@Rocketseat](https://github.com/Rocketseat)
+
+<a href="https://github.com/Rocketseat" >
+    <img width="100" height="100" src="https://avatars0.githubusercontent.com/u/28929274?v=4">
+</a>

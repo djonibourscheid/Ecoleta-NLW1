@@ -36,16 +36,6 @@
 
 
     /* PAGINA RESULTADOS */
-    #page-search-results main h4,
-    #page-search-results main .card{
-        display: flex;
-        flex-direction: column;
-
-        text-align: center;
-        align-items: center;
-        justify-content: center; 
-    }
-
     #page-search-results .cards {
         grid-template-columns: 1fr;
     }

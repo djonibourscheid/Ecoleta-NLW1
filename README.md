@@ -81,6 +81,9 @@ Após o comando acima executar:
         <td>
             Instrutor
         </td>
+        <td>
+            Organizadora
+        </td>
     </tr>
     <tr align="center">
         <td>
@@ -93,6 +96,11 @@ Após o comando acima executar:
                 <img width="100" height="100" src="https://avatars3.githubusercontent.com/u/6643122?v=4">
             </a>
         </td>
+        <td>
+            <a href="https://github.com/Rocketseat">
+                <img width="100" height="100" src="https://avatars0.githubusercontent.com/u/28929274?v=4">
+            </a>
+        </td>
     </tr>
     <tr align="center">
         <td>
@@ -101,11 +109,8 @@ Após o comando acima executar:
         <td>
             <a href="https://github.com/maykbrito">@maykbrito</a>
         </td>
+        <td>
+            <a href="https://github.com/Rocketseat">@Rocketseat</a>
+        </td>
     </tr>
 </table>
-
-[@Rocketseat](https://github.com/Rocketseat)
-
-<a href="https://github.com/Rocketseat" >
-    <img width="100" height="100" src="https://avatars0.githubusercontent.com/u/28929274?v=4">
-</a>
